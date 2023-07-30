@@ -20,7 +20,7 @@ function Student(name, gender, age) {
       return 0;
     }
       const gradePointAverage = this.marks.reduce((acc, marks, index, arr) => {
-      acc += mark;
+      acc += marks;
       if (index === arr.length - 1) {
           return acc / arr.length;
       }
